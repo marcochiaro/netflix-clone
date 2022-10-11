@@ -36,3 +36,9 @@
   width: 30px;
   height: 30px;
 }
+
+.nav__avatar:hover {
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+}

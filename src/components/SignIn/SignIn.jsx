@@ -36,6 +36,7 @@ const SignIn = () => {
 
     try {
       const authUser = await signInWithEmailAndPassword(email, password);
+      console.log(authUser);
     } catch (error) {
       const errorCode = e.code;
       const errorMessage = e.message;
